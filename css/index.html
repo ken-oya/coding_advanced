@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casteria</title>
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">Casteria</div>
+    <div class="sp-menu-button">
+      <span></span><span></span><span></span>
+    </div>
+
+    <nav class="pc-nav">
+      <a href="#">Home</a>
+      <a href="#">Food</a>
+      <a href="#">Drink</a>
+      <a href="#">お問合せ</a>
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <button>Search</button>
+      </div>
+    </nav>
+  </header>
+  <nav class="sp-nav">
+    <div class="sp-menu-content">
+      <ul>
+        <li><a href="#about">私たちについて</a></li>
+        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#hygiene">衛生について</a></li>
+        <li><a href="#access">アクセス</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Swiper Carousel -->
+  <section class="swiper-section">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/food.jpg" alt="salmon"></div>
+        <div class="swiper-slide"><img src="../img/food2.jpg" alt="pasta"></div>
+        <div class="swiper-slide"><img src="../img/food3.jpg" alt="coffee"></div>
+        <div class="swiper-slide"><img src="../img/food4.jpg" alt="ingredients"></div>
+        <div class="swiper-slide"><img src="../img/interior.jpg" alt="interior"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="info fade-in">
+      <h1>新型コロナウイルスに対する取り組みの最新情報をご案内</h1>
+
+      <button class="accordion">■ 衛生面に関して</button>
+      <div class="accordion-content">
+        <ul>
+          <li>・マスクを着用しての接客</li>
+          <li>・出勤前の検温の徹底</li>
+          <li>・レジカウンターやドリンク受け渡し口等への飛沫防止ガードの設置</li>
+          <li>・より頻度の高い手洗いの励行</li>
+          <li>・テーブルにお客様用の消毒用アルコールの設置</li>
+          <li>・従業員間の距離確保のため、休憩や研修時の客席利用</li>
+        </ul>
+      </div>
+
+      <button class="accordion">■ お客様へのお願い</button>
+      <div class="accordion-content">
+        <ul>
+          <li>・店内では、飲食時以外のマスク着用をお願いします</li>
+          <li>・入店時の手指の消毒にご協力ください</li>
+          <li>・レジに並ぶ際、目安を示すフロアステッカーに沿った列感覚の確保にご協力ください</li>
+          <li>・多数でお越しの際は、お1人がまとめてご注文願います（混雑時に入場制限をする場合がございます）</li>
+          <li>・発熱や体調不良の際はご入店をお控えください</li>
+        </ul>
+      </div>
+      <button class="accordion">■ サービスに関して</button>
+      <div class="accordion-content">
+        <ul>
+          <li>・直接お渡しする商品の提供、金銭授受時にグローブの着用</li>
+          <li>・ドリンクやフードのサンプリング中止</li>
+          <li>・地域活動・イベントの中止</li>
+          <li>・混雑時間帯の客席の譲り合いへのご協力お願いの実施</li>
+          <li>・店内設置しているミルク、はちみつ、パウダー類の一時引き下げ</li>
+          <li>・混雑状況に応じたドライブスルーサービスの一時休止や店内客席利用の制限</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2 class="section-title fade-in">Signature Food</h2>
+      <div class="feature fade-in">
+        <img src="../img/food.jpg" alt="Signature Food">
+        <div class="text">
+          <p>サーモンは刺身やカルパッチョで食べるのが美味しいですが、リッチな気分になれるサーモンステーキがおすすめです。サーモンの美味しさを引き立てる２種のソースも絶品です！</p>
+        </div>
+      </div>
+      <h2 class="section-title fade-in">Our Coffee</h2>
+      <div class="feature fade-in">
+        <img src="../img/barista.jpg" alt="Coffee">
+        <div class="text">
+          <p>当店のコーヒー豆は厳選して世界中から買い付けています。そして、そのコーヒー豆のおいしさを最大限に引き出すために自社のロースタリーで焙煎しています。</p>
+        </div>
+      </div>
+      <h2 class="section-title fade-in">Our Food</h2>
+      <div class="feature fade-in">
+        <img src="../img/food3.jpg" alt="Food3">
+        <div class="text">
+          <p>当店は何よりまずは衛生管理に気をつけています。「安全・安心」をお届けするために日々継続的な努力を惜しみません。</p>
+        </div>
+      </div>
+    </section>
+    <section class="store-info fade-in">
+      <div class="address-box">
+        <div class="address-text">
+          <h2 class="font-title">Address</h2>
+          <p>681 xxxx Drive, xxxxx xxxx #01 - 06 000000</p>
+          <h4>Opening Hours</h4>
+          <p class="font-text">Mondays - Friday: 10am - 9pm</p>
+          <p>Saturdays, Sundays & Public Holidays: 9am - 9pm</p>
+        </div>
+        <div class="address-image">
+          <img src="../img/barista.jpg" alt="barista" />
+        </div>
+      </div>
+    </section>
+
+    <section class="locations fade-in">
+      <h2>店舗一覧</h2>
+      <div class="location-list">
+        <div class="location">
+          <img src="../img/restaurant2.jpg" alt="渋谷店" />
+          <p>📍東京都渋谷区xxxxx xxxxx</p>
+        </div>
+        <div class="location">
+          <img src="../img/restaurant3.jpg" alt="市川店" />
+          <p>📍千葉県市川市xxxxx xxxxx</p>
+        </div>
+        <div class="location">
+          <img src="../img/restaurant4.jpg" alt="横浜店" />
+          <p>📍神奈川県横浜市xxxxx xxxxx</p>
+        </div>
+        <div class="location">
+          <img src="../img/restaurant5.jpg" alt="川越店" />
+          <p>📍埼玉県川越市xxxxx xxxxx</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="fade-in">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="#">プライバシーポリシー</a>
+        <a href="#">お問合せ</a>
+        <a href="#">運営会社</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 2,
+      spaceBetween: 0,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1
+        },
+        769: {
+          slidesPerView: 2
+        }
+      },
+    });
+
+    document.querySelectorAll('.accordion').forEach(button => {
+      const content = button.nextElementSibling;
+
+      content.style.maxHeight = '0px';
+
+      button.addEventListener('click', () => {
+        const isOpen = content.classList.contains('open');
+
+        if (isOpen) {
+          content.style.maxHeight = content.scrollHeight + 'px';
+          requestAnimationFrame(() => {
+            content.style.maxHeight = '0px';
+            content.classList.remove('open');
+          });
+        } else {
+          content.classList.add('open');
+          content.style.maxHeight = content.scrollHeight + 'px';
+        }
+      });
+    });
+
+    const fadeIns = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    fadeIns.forEach(el => observer.observe(el));
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuBtn = document.querySelector(".sp-menu-button");
+      const nav = document.querySelector(".sp-nav");
+
+      menuBtn.addEventListener("click", function () {
+        nav.classList.toggle("active");
+      });
+    });
+
+  </script>
+</body>
+
+</html>
